@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png">
+
+    <title>OpenEMR Video Consultation Suite(Beta)</title>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+        integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="
+        crossorigin="anonymous" />
+    <link href="css/index.css" rel="stylesheet" />
+
+    <!--     Fonts     -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Google Tag Manager -->
+
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="landing-page landing-page2">
+    <!-- Google Tag Manager (noscript) -->
+
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+        </div><!-- /.container -->
+    </nav>
+    <div class="main" style="background-image: url('images/default.jpg')">
+
+        <!--    Change the image source '/images/default.jpg' with your favourite image.     -->
+
+        <div class="cover" data-color="blue"></div>
+
+        <!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
+
+        <div class="container">
+            <h2 class="logo cursive">
+                <span class="highlight">AVC</span> Suite
+            </h2>
+            <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
+
+            <div class="content">
+                <h4 class="motto">Audio,Video and Chat consultation suite.</h4>
+                <div class="subscribe">
+
+                    <div class="row">
+                        <div class="col-md-12  " style="text-align: center;">
+                            <form class="form-inline d-flex justify-content-center" role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control transparent" id="meetId"
+                                        placeholder="Enter partner's meeting ID" style="width: 99%;">
+                                </div>
+                                <button onclick="joinMeeting()" type="button" class="btn btn-success btn-fill"
+                                    style="height: 40px;">Join Meeting</button>
+
+                            </form>
+
+                            <p>Or</p>
+                            <button type="submit" onclick="newMeeting()" class="btn btn-primary btn-fill"
+                                style="height: 40px;">Host your meeting</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer mr-30 text-right">
+            &copy; 2021 Saibal Chakravarty
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+    integrity="sha512-YHQNqPhxuCY2ddskIbDlZfwY6Vx3L3w9WRbyJCY81xpqLmrM6rL2+LocBgeVHwGY9SXYfQWJ+lcEWx1fKS2s8A=="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+    integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+    crossorigin="anonymous"></script>
+<script src="js/index.js" type="text/javascript"></script>
+
+
+
+</html>
